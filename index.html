@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Sign Up</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" required />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-phone"></i>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone Number"
+                pattern="[0-9]{10}"
+                title="Phone number must be a 10-digit number"
+                required
+              />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" required />
+            </div>
+            <input type="submit" value="Sign Up" class="btn solid" />
+          </form>
+        </div>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New to our community?</h3>
+            <p>Join us today and start exploring endless opportunities!</p>
+          </div>
+          <img
+            src="./assets/signup.svg"
+            class="image"
+            alt="Sign Up Illustration"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
